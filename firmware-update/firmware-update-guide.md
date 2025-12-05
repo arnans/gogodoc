@@ -62,6 +62,10 @@ If your GoGo Board 7 is running firmware **older than 2.3.8**, you must use the 
 
    <img src="images/10 advanced installer.png" alt="Manual Update Utility" width="50%"/>
 
+The manual firmware update utility can also be accessed from the following URL:
+
+> https://install-firmware.gogoboard.org/
+
 2. From the **Select firmware** dropdown list, choose the desired firmware (default is the latest GoGo Board 7 firmware).  
 
    <img src="images/11 selecting the firmwrae.png" alt="Select Firmware" width="50%"/>
