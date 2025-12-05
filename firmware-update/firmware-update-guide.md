@@ -71,13 +71,15 @@ The manual firmware update utility can also be accessed from the following URL:
    <img src="images/11 selecting the firmwrae.png" alt="Select Firmware" width="50%"/>
    
 3. Put the GoGo Board into **bootloader mode**:
-   - Hold the **Boot** button while turning on the board.
+   - Hold the **Boot** button (near the power on/off switch*) while turning on the board.
    - The screen should display a **solid white** background.
 4. Press **Connect**. A device selection window will appear.
 5. Select **ESP32-S3** or **USB/JTAG/serial debug unit**, then press **Connect**.
 6. Follow the on-screen instructions until the firmware update completes.
 7. **Power cycle the board** (turn it off and back on).  
    The firmware update is now complete.
+
+> \* The boot button is either located on the edge or on the back side of the GoGo Board, depending on the version you have. E.g. GoGo 7C, the button is on the back side. 
 
 ---
 
