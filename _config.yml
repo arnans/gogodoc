@@ -1,0 +1,10 @@
+theme: jekyll-theme-cayman
+title: GoGo Board Docs
+description: Documentation for GoGo Board features and firmware
+
+plugins:
+  - jekyll-relative-links
+
+relative_links:
+  enabled: true
+  collections: true
