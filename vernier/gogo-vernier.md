@@ -1,7 +1,7 @@
 # Vernier Go Direct Sensors
 
 <!-- TODO: hero image — GoGo Board showing a live reading from a Go Direct sensor -->
-<img src="images/gogo-w-vernier.png" alt="GoGo Board reading a Vernier Go Direct sensor" width="60%"/>
+<img src="https://github.com/thegogoboard/gogodoc/blob/main/Vernier/Vernier-sc.png?raw=true" alt="GoGo Board reading a Vernier Go Direct sensor" width="30%"/> <img src="https://github.com/thegogoboard/gogodoc/blob/main/Vernier/Vernier-sc1.png?raw=true" alt="GoGo Board reading a Vernier Go Direct sensor" width="30%"/> 
 
 Now you can connect the GoGo Board to Vernier Go Direct Bluetooth sensors and use them in your STEM projects.
 
@@ -40,8 +40,8 @@ Here's how it works:
 - **From the GoGo Board** — Connect a sensor and watch its live reading right on the GoGo Board's screen.
 - **From your code** — Use the `vernier's` block to read a measurement and use it in your program.
 
+  ![](https://github.com/thegogoboard/gogodoc/blob/main/Vernier/GoGo%20x%20Vernier%20(6).gif?raw=true)
    <!-- TODO: image — live sensor reading on the GoGo's screen -->
-   <img src="images/vernier-overview.png" alt="Live sensor reading on the GoGo's LCD screen" width="50%"/>
 
 ---
 
@@ -93,7 +93,7 @@ Open the **Vernier** category in the blocks toolbox. There are two kinds of bloc
 - **`vernier's [measurement] unit`** — gives you the unit of that reading (for example `°C` or `N`) as text.
 
    <!-- TODO: image — the vernier's value and unit blocks -->
-   <img src="images/vernier-code-block.png" alt="vernier's block" width="50%"/>
+   <img src="https://github.com/thegogoboard/gogodoc/blob/main/Vernier/vernier's%20block.png?raw=true" alt="vernier's block" width="50%"/>
 
 Each block comes in two styles:
 
@@ -103,7 +103,7 @@ Each block comes in two styles:
 The drop-down is the easiest way to start. Just choose a measurement, and the block reads it from whichever connected sensor provides it.
 
    <!-- TODO: image — capture the measurement drop-down open -->
-   <img src="images/vernier-code-dropdown.png" alt="Drop-down listing sensor measurements" width="30%"/>
+   ![](https://github.com/thegogoboard/gogodoc/blob/main/Vernier/GoGo%20x%20Vernier%20(2).gif?raw=true)
 
 > **Tip:** If you use the type-it-yourself block, the name has to match the sensor's measurement (for example `temperature`). The drop-down has the names already, so you don't have to worry about spelling — start there.
 
@@ -129,11 +129,16 @@ The slot number is the same number shown next to the sensor on the GoGo Board's 
 Read `vernier's Temperature (°C)` and display it, so you always see the current temperature while your program runs.
 
    <!-- TODO: image/example — temperature-reading program -->
-   <img src="images/vernier-example-1.png" alt="Example program reading temperature" width="50%"/>
+  <img src="https://github.com/thegogoboard/gogodoc/blob/main/Vernier/Example%20program%20reading%20temperature.png?raw=true" alt="Example program reading temperature" width="50%"/>
+  
+[Download the working code here](https://code.gogoboard.org/#/program/eeef5ba8-58a3-44e1-86e3-05ce1cc9a266)
 
 ### Example 2: Turn on an output when it gets warm
 
 Inside a loop, check if `vernier's Temperature (°C)` is above a number you choose (for example 30). If it is, turn on an LED or a motor. This is a simple way to build an automatic fan or a warning light.
+![](https://github.com/thegogoboard/gogodoc/blob/main/Vernier/GoGo%20x%20Vernier%20(1).gif?raw=true)
+
+[Download the working code here](https://code.gogoboard.org/#/program/72e055b4-abb2-4e67-b3d6-f91153fa7ef4)
 
    <!-- TODO: image/example — "turn on output when warm" program -->
 
